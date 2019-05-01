@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>مصادر</title>
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+
+        <link rel="stylesheet" href="Style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+        
+        <!---,LOAD STYLE EDITOR-->
+        <link rel="stylesheet" href="richtext.min.css">
+        
+        <!--lOAD NEW STYLE EDITOR-->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        
+        <link href="editor.css" type="text/css" rel="stylesheet"/>
+        <script src="editor.js"></script>
+    </head>
+    <body> 
+        <div class="contain">
+            <!---1st part-->
+            <div id="top">
+                <!--  try to make it diferent-->
+            <div class="shap">           
+                <div class="spinner-grow text-primary" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-secondary" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-success" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-danger" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-warning" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-info" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-light" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <div class="spinner-grow text-dark" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                
+            </div>
+            <div class="container" >
+                <div class="row">
+               <!--Source part-->
+                <div class="col" id="source">
+                     <h2>عرض محتوي الأخبار</h2>
+                    <textarea class="listsource" id="try"></textarea>
+                    <button type="button" class="btn btn-primary view">View</button>
+                    <button type="button" class="btn btn-success qoute">Qoute</button>
+                    <!--Content Of Source-->
+                </div><!--End Of Source-->
+                <div class="col-md-auto">
+                    <h2>الأخبار العاجلة</h2>
+                         
+                         <select class="list-group" id="items1">
+                          <option class="list-group-item" id="item1">Cras justo odio</option>
+                          <option class="list-group-item" id="item1">Dapibus ac facilisis in</option>
+                          <option class="list-group-item" id="item1">Morbi leo risus</option>
+                          <option class="list-group-item" id="item1">Porta ac consectetur ac</option>
+                          <option class="list-group-item" id="item1">Vestibulum at eros</option>
+                        </select>
+                </div>
+               <!--Source part-->
+                <div class="col col-lg-2" id="innerSource">
+                    <h2>الأخبار الرئيسية</h2>
+                     <!--List Of innerSource-->
+                        <select class="list-group" id="items">
+                          <option class="list-group-item" id="item">Cras justo odio</option>
+                          <option class="list-group-item" id="item">Dapibus ac facilisis in</option>
+                          <option class="list-group-item" id="item">Morbi leo risus</option>
+                          <option class="list-group-item" id="item">Porta ac consectetur ac</option>
+                          <option class="list-group-item" id="item">Vestibulum at eros</option>
+                        </select>
+                </div><!--End Of InnerSource-->
+              </div>
+            </div><!--End Of Top-->
+           </div>     
+            <!---2nd part-->
+            <div id="bottom">
+            <div class="bottom" >
+                  <h2 class="word">Word Editor</h2>
+                    <div id="txtEditor"></div>
+<!--                    <form method="get" action="file.doc">-->
+                        <button type="submit" class="btn btn-warning" id="download">Download!</button>
+<!--                    </form>-->
+                    <textarea class="content" name="example"></textarea>
+            </div><!--End Of Bottom-->
+           </div>     
+        </div><!--End Of Conatin-->
+   
+        <!--Calling the plugin will transform the textarea element into a basic WYSIWYG rich text editor.-->
+      
+
+            <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossoxrigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+         <!--Load Jquery-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        
+        <script type="text/javascript" src="jquery.richtext.min.js"></script>
+        <script type="text/javascript"  src="main.js"></script>
+    </body>
+</html>
